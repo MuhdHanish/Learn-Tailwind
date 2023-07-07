@@ -19,6 +19,9 @@ export default {
           900: "#4A148C"
         },
       },
+      fontFamily: {
+        primary:['Poppins']
+      },
     },
   },
   plugins: [],
