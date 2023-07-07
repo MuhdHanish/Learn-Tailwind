@@ -10,7 +10,7 @@ const Main = () => {
       <div>
         <NavBar />
       </div>
-      <main>
+      <main className="px-16 py-6">
         <MainSection />
         <header>
           <Header />
