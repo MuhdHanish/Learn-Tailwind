@@ -1,8 +1,8 @@
-import Main from "./components/Main"
+import Main from "./pages/Main"
 
 function App() {
   return (
-    <body>
+    <body className="">
       <Main/>
     </body>
   )
