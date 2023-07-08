@@ -18,8 +18,8 @@ const Main = () => {
         <div>
           <LatestRecipe />
           <MostPopular />
-          <div>
-            <div>Load more</div>
+          <div className="flex justify-center">
+            <div className="bg-secondary">Load more</div>
           </div>
         </div>
       </main>
