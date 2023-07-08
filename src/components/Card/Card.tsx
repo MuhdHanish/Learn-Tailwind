@@ -9,7 +9,7 @@ type porps = {
 const Card = ({name,recipe,time}: porps) => {
   return (
     <>
-      <div className="card hover:shadow-2xl">
+      <div className="card hover:shadow-2xl" >
         <img
           src={`img/${name}.jpg`}
           alt="stew"

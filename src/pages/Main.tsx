@@ -7,7 +7,7 @@ import NavBar from "../components/NavBar/NavBar";
 const Main = () => {
   return (
     <div className="grid md:grid-cols-3">
-      <div className="md:col-span-1">
+      <div className="md:col-span-1 flex md:justify-end">
         <NavBar />
       </div>
       <main className="px-16 py-6 bg-gray-100 md:col-span-2">
