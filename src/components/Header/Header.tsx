@@ -1,4 +1,4 @@
-const Header = () => {
+const  Header = () => {
   return (
     <>
       <h2 className="text-gray-700 text-6xl font-semibold">Recipes</h2>
