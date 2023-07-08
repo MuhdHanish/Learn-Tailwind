@@ -19,7 +19,7 @@ const Main = () => {
           <LatestRecipe />
           <MostPopular />
           <div className="flex justify-center">
-            <div className="bg-secondary">Load more</div>
+            <div className="bg-primary-100 btn  hover:shadow-inner">Load more</div>
           </div>
         </div>
       </main>

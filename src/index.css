@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .card{
- @apply bg-white rounded overflow-hidden shadow-2xl relative;
+ @apply bg-white rounded overflow-hidden shadow-lg relative;
 }
 
 .badge{
