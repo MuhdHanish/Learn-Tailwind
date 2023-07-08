@@ -6,11 +6,11 @@ import NavBar from "../components/NavBar/NavBar";
 
 const Main = () => {
   return (
-    <div>
-      <div>
+    <div className="grid md:grid-cols-3">
+      <div className="md:col-span-1">
         <NavBar />
       </div>
-      <main className="px-16 py-6 bg-gray-100">
+      <main className="px-16 py-6 bg-gray-100 md:col-span-2">
         <MainSection />
         <header>
           <Header />
