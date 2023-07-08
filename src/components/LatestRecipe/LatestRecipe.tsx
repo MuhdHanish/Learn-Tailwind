@@ -8,7 +8,9 @@ const LatestRecipe = () => {
         Latest Recipes
       </h4>
       <div className="mt-8">
-        <Card />
+        <Card name="stew" recipe=" Bean Chilli Stew" time="25" />
+        <Card name="noodles" recipe=" Mushroom noodles" time="10" />
+        <Card name="curry" recipe=" Paneer butter curry" time="30" />
       </div>
     </>
   );
